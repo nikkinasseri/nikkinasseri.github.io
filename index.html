@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikki Nasseri</title>
+<meta name="description" content="Nikki Nasseri — PhD student in Information Science and Technology at George Mason University, studying learning sciences and human-AI interaction.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="noise" aria-hidden="true"></div>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="#top" class="nav-name">Nikki Nasseri</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <p class="eyebrow">PhD Student · Information Science &amp; Technology</p>
+        <h1>Nikki Nasseri</h1>
+        <p class="hero-sub">I study how people learn alongside AI — from children's conversations with
+          interactive characters to how researchers design human-AI writing and simulation tools.
+          Currently pursuing my PhD at <strong>George Mason University</strong>.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="assets/Nikki_Nasseri_CV.pdf" class="btn btn-ghost" download>Download CV</a>
+        </div>
+        <div class="hero-meta">
+          <span>📍 Fairfax, VA</span>
+          <span>✉️ nnasseri@gmu.edu</span>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="photo-frame">
+          <img src="assets/profile.jpg" alt="Portrait of Nikki Nasseri" id="profileImg"
+               onerror="this.closest('.photo-frame').classList.add('no-photo')">
+          <div class="photo-fallback">NN</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title"><span class="num">01</span> About</h2>
+      <div class="about-grid">
+        <p class="lead reveal">
+          I'm a first-year PhD student in Information Science and Technology at George Mason University
+          and an NSF Graduate Research Fellow. My research sits at the intersection of learning sciences,
+          child development, and human-AI interaction — I'm interested in how AI tools and agents shape
+          the way people, especially children, learn, create, and communicate.
+        </p>
+        <p class="reveal">
+          Before GMU, I completed an M.A. in Learning Sciences and Human Development at UC Berkeley and
+          a B.A. in Psychological Science at UC Irvine (Magna Cum Laude, GPA 3.99/4.00), where I
+          completed an honors thesis on children's verbal engagement with AI conversational agents.
+          I've also worked as a research intern at the Stanford HAI Institute, building and deploying a
+          full-stack interactive simulation platform to study experiential learning.
+        </p>
+        <p class="reveal">
+          Outside of research, I mentor undergraduate students on thesis and study design, present at
+          conferences on children's media and human-AI collaboration, and enjoy building tools that make
+          research more accessible.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section alt" id="education">
+    <div class="container">
+      <h2 class="section-title"><span class="num">02</span> Education</h2>
+      <ol class="timeline">
+        <li class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>George Mason University</h3>
+              <span class="timeline-date">Aug 2026 – Present</span>
+            </div>
+            <p class="timeline-role">PhD in Information Science and Technology</p>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>University of California, Berkeley</h3>
+              <span class="timeline-date">Aug 2025 – May 2026</span>
+            </div>
+            <p class="timeline-role">M.A. in Learning Sciences and Human Development</p>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>University of California, Irvine</h3>
+              <span class="timeline-date">Sept 2023 – Jun 2025</span>
+            </div>
+            <p class="timeline-role">B.A. in Psychological Science — GPA 3.99/4.00, Magna Cum Laude</p>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Irvine Valley College</h3>
+              <span class="timeline-date">Aug 2021 – May 2023</span>
+            </div>
+            <p class="timeline-role">A.A. in Psychological Science — Cum Laude, Dean's List</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- RESEARCH / EXPERIENCE -->
+  <section class="section" id="research">
+    <div class="container">
+      <h2 class="section-title"><span class="num">03</span> Research Experience</h2>
+      <div class="card-grid">
+        <article class="card reveal">
+          <div class="card-head">
+            <h3>Stanford HAI Institute</h3>
+            <span class="card-tag">Research Intern</span>
+          </div>
+          <p class="card-date">Jun 2025 – Present · PI: Hariharan Subramonyam</p>
+          <p class="card-sub"><em>Project: Learning by Creating</em></p>
+          <ul>
+            <li>Led a study on how people learn through building simulations versus reading text</li>
+            <li>Designed the study, obtained IRB approval, and managed recruitment &amp; logistics</li>
+            <li>Built a full-stack interactive simulation platform from scratch (React, Node.js, JavaScript), versioned with Git and deployed via Heroku</li>
+            <li>Created pre/post-tests and a study survey to measure learning outcomes and engagement</li>
+          </ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-head">
+            <h3>Digital Learning Lab, UCI</h3>
+            <span class="card-tag">Honors Thesis / Research Assistant</span>
+          </div>
+          <p class="card-date">Feb 2024 – Jun 2025 · PI: Mark Warschauer</p>
+          <p class="card-sub"><em>Children's verbal engagement with AI agents vs. humans</em></p>
+          <ul>
+            <li>Developed metrics for children's response rate, length, accuracy, relevance, and intelligibility</li>
+            <li>Ran regression analyses comparing engagement with an AI agent vs. a human co-viewer</li>
+            <li>Compared how AI agents and human researchers classify children's responses</li>
+            <li>Disseminated findings at SRCD and the UCI UROP Symposium (2025)</li>
+          </ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-head">
+            <h3>Stress, Emotion &amp; Physical Health Lab, UCI</h3>
+            <span class="card-tag">Research Assistant</span>
+          </div>
+          <p class="card-date">Jun 2023 – Jun 2025 · PI: Sarah Pressman</p>
+          <p class="card-sub"><em>Wearables, facial coding &amp; well-being</em></p>
+          <ul>
+            <li>Standardized study procedures and trained new undergraduate research assistants</li>
+            <li>Coded facial expressions with Noldus Facereader and analyzed HRV/impedance data</li>
+            <li>First author on a UROP poster examining vacation activities and subjective well-being</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section class="section alt" id="publications">
+    <div class="container">
+      <h2 class="section-title"><span class="num">04</span> Publications &amp; Presentations</h2>
+
+      <h3 class="sub-heading reveal">Manuscripts &amp; Preprints</h3>
+      <ul class="pub-list reveal">
+        <li>Nasseri, N., Subramonyam, H., Pea, R., Seifert, C., &amp; Gerstenberg, T. (2025). <em>Learning by Creating: Investigating Interactive Simulation Building as a Tool for Deeper Understanding</em> [Manuscript in preparation]. Journal of Educational Technology.</li>
+        <li>Siddiqui, M. N., Nasseri, N., Coscia, A., Pea, R., &amp; Subramonyam, H. (2025). <em>DraftMarks: Enhancing transparency in human-AI co-writing through interactive skeuomorphic process traces.</em> arXiv. <a href="https://doi.org/10.48550/arXiv.2509.23505" target="_blank" rel="noopener">10.48550/arXiv.2509.23505</a></li>
+      </ul>
+
+      <h3 class="sub-heading reveal">Conference Presentations</h3>
+      <ul class="pub-list reveal">
+        <li>Siddiqui, M. N., <strong>Nasseri, N.</strong>, Coscia, A., Pea, R., &amp; Subramonyam, H. (2026). <em>DraftMarks: Enhancing Transparency in Human-AI Co-Writing Through Interactive Skeuomorphic Process Traces.</em> CHI Conference on Human Factors in Computing Systems. Barcelona, Spain.</li>
+        <li><strong>Nasseri, N.</strong>, He, K., &amp; Warschauer, M. (2026). <em>Comparing Children's Verbal Engagement with an Interactive Media Character and a Human during Video Watching.</em> American Educational Research Association. Los Angeles, CA.</li>
+        <li><strong>Nasseri, N.</strong>, He, K., &amp; Warschauer, M. (2026). <em>Examining Children's Scientific Misconceptions from an Educational Video with an Embedded Conversational Agent.</em> American Educational Research Association. Los Angeles, CA.</li>
+        <li><strong>Nasseri, N.</strong>, He, K., &amp; Warschauer, M. (2025). <em>Verbal Participation of Young Children with AI Conversational Agents and Human Partners.</em> Society for Research in Child Development. Minneapolis, MN.</li>
+        <li><strong>Nasseri, N.</strong>, He, K., &amp; Warschauer, M. (2025). <em>Engaging Young Viewers: Children's Verbal Interaction with AI Characters Compared to Human.</em> UCI School of Social Ecology Honors Collegium. Irvine, CA.</li>
+        <li><strong>Nasseri, N.</strong>, He, K., &amp; Warschauer, M. (2025). <em>How AI Dialogue Clarifies Scientific Misconceptions for Children.</em> American Psychological Association. Denver, CO.</li>
+        <li>Dastmalchi, N., Younies, N., <strong>Nasseri, N.</strong>, Wang, R., Luu, J., &amp; Pressman, S. (2024). <em>Optimizing Recreation: The Relationship Between Different Types of Vacation Activities and Overall Well-Being.</em> Western Psychological Association. San Francisco, CA.</li>
+        <li>Younies, N., Dastmalchi, N., <strong>Nasseri, N.</strong>, Wang, R., Luu, J., &amp; Pressman, S. (2024). <em>Unlocking the Secrets of Vacation Bliss: Exploring the Link Between Well-Being and Vacation Activities.</em> Association for Psychological Science. San Francisco, CA.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- AWARDS -->
+  <section class="section" id="awards">
+    <div class="container">
+      <h2 class="section-title"><span class="num">05</span> Grants, Awards &amp; Recognition</h2>
+      <div class="awards-grid">
+        <div class="award reveal">
+          <span class="award-year">2026</span>
+          <p><strong>NSF Graduate Research Fellowship (GRFP) Fellow</strong></p>
+        </div>
+        <div class="award reveal">
+          <span class="award-year">2026</span>
+          <p><strong>LearnLab Summer School</strong>, Carnegie Mellon University — selected participant, advanced training in learning sciences &amp; educational data mining</p>
+        </div>
+        <div class="award reveal">
+          <span class="award-year">2025</span>
+          <p><strong>UCI School of Social Ecology</strong> Honors Program &amp; Excellence in Research Distinction Award</p>
+        </div>
+        <div class="award reveal">
+          <span class="award-year">2024</span>
+          <p><strong>UCI UROP Research Grant</strong>, $251</p>
+        </div>
+        <div class="award reveal">
+          <span class="award-year">2024</span>
+          <p><strong>UCI Summer Undergraduate Research Program (SURP)</strong> Research Grant, $1,500</p>
+        </div>
+        <div class="award reveal">
+          <span class="award-year">2024</span>
+          <p><strong>UCI UROP Publication Award</strong>, $1,000</p>
+        </div>
+        <div class="award reveal">
+          <span class="award-year">2023</span>
+          <p><strong>UCI UROP Research Grant</strong>, $500</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEACHING & MEDIA -->
+  <section class="section alt" id="teaching">
+    <div class="container two-col">
+      <div class="reveal">
+        <h2 class="section-title small"><span class="num">06</span> Teaching</h2>
+        <div class="mini-item">
+          <h3>Psychology Honors Thesis Seminar</h3>
+          <p class="card-date">Graduate Student Tutor · Aug 2025 – Present</p>
+          <p>Weekly office hours for 20 students on research design, literature reviews, data analysis, and thesis writing.</p>
+        </div>
+        <div class="mini-item">
+          <h3>Positive Psychology</h3>
+          <p class="card-date">Learning Assistant · Jan 2025 – Mar 2025</p>
+          <p>Ran virtual office hours, facilitated discussion boards, and supported students with course material.</p>
+        </div>
+      </div>
+      <div class="reveal">
+        <h2 class="section-title small"><span class="num">07</span> Media &amp; Skills</h2>
+        <div class="mini-item">
+          <h3>UCI UROP Researcher Roundup Podcast</h3>
+          <p class="card-date">Featured Guest · May 2025</p>
+          <p>Discussed the research process by designing a hypothetical study to test a satirical claim, promoting research accessibility.</p>
+        </div>
+        <div class="skills">
+          <div>
+            <h4>Tools &amp; Languages</h4>
+            <div class="tag-row">
+              <span class="tag">R</span><span class="tag">JavaScript</span><span class="tag">React</span>
+              <span class="tag">Node.js</span><span class="tag">Git</span><span class="tag">SPSS</span>
+              <span class="tag">JASP</span><span class="tag">Excel</span>
+            </div>
+          </div>
+          <div>
+            <h4>Statistics</h4>
+            <div class="tag-row">
+              <span class="tag">T-tests</span><span class="tag">ANOVA</span>
+              <span class="tag">Multiple Regression</span><span class="tag">Correlation</span><span class="tag">Factor Analysis</span>
+            </div>
+          </div>
+          <div>
+            <h4>Languages</h4>
+            <div class="tag-row">
+              <span class="tag">Farsi (native)</span><span class="tag">English (native)</span>
+              <span class="tag">Spanish (intermediate)</span><span class="tag">Russian (beginner)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title"><span class="num">08</span> Get in Touch</h2>
+      <p class="lead reveal">
+        I'm always happy to connect about learning sciences, human-AI interaction, or research
+        collaboration. The best way to reach me is by email.
+      </p>
+      <a class="email-link reveal" href="mailto:nnasseri@gmu.edu">nnasseri@gmu.edu</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Nikki Nasseri. Built with care.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
