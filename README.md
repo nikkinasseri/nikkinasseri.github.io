@@ -1,6 +1,7 @@
 # nikkinasseri.github.io
 
-Nikki Nasseri's personal academic website — a static site (plain HTML/CSS/JS, no build step).
+Nikki Nasseri's personal academic website — a static site (plain HTML/CSS, no build step),
+built on the layout of [jren03's academic homepage template](https://github.com/jren03/jren03.github.io).
 
 **Live site:** https://nikkinasseri.github.io
 
@@ -34,14 +35,13 @@ changes (or use a "Live Server" extension in VS Code for automatic reload on sav
 
 ## Where to edit things
 
-- `index.html` — all page content and structure (sections: About, Education, Research,
-  Publications, Awards, Teaching, Contact).
-- `css/style.css` — colors, fonts, spacing, layout. Color tokens are defined at the top
-  under `:root` (light mode) and under the dark-mode media query.
-- `js/script.js` — small interactive bits (mobile nav toggle, scroll-reveal animation).
-- `assets/profile.jpg` — your photo (used in the hero section). Drop a new image here
-  with this exact filename to swap it.
-- `assets/Nikki_Nasseri_CV.pdf` — the downloadable CV linked from the "Download CV" button.
+- `index.html` — all page content and structure (sections: Intro, Education, Research
+  Experience, Publications & Presentations, Grants/Awards, Teaching, Media & Skills, Contact).
+- `style.css` — colors, fonts, spacing, layout. Color tokens are defined at the top under
+  `:root` (`--cyan` for links, `--title-blue` for accents, `--text`/`--muted` for text).
+- `images/profile/profile_pic.jpg` — your photo (used in the intro section). Drop a new
+  image here with this exact filename to swap it.
+- `assets/Nikki_Nasseri_CV.pdf` — the downloadable CV linked from the CV icon in the intro.
 
 ## Adding a custom domain (optional)
 
