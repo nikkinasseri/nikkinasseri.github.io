@@ -179,3 +179,6 @@ a.cyan:hover, .cyan:hover { text-decoration: underline; }
 }
 .more-pubs > summary:hover { text-decoration: underline; }
 .more-pubs[open] > summary { margin-bottom: .25rem; }
+.more-pubs .when-open { display: none; }
+.more-pubs[open] .when-open { display: inline; }
+.more-pubs[open] .when-closed { display: none; }
