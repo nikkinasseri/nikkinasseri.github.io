@@ -168,3 +168,14 @@ a.cyan:hover, .cyan:hover { text-decoration: underline; }
    Contact
    ======================= */
 .email-cta { font-size: 1.25rem; font-weight: 700; }
+
+/* Fold for the longer publication list */
+.more-pubs { margin-top: .75rem; }
+.more-pubs > summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: .4rem 0;
+  list-style-position: inside;
+}
+.more-pubs > summary:hover { text-decoration: underline; }
+.more-pubs[open] > summary { margin-bottom: .25rem; }
