@@ -56,10 +56,12 @@
               rel="noopener noreferrer"
               >NSF Graduate Research Fellow</a
             >. My research sits at the
-            intersection of learning sciences, psychology, information
-            sciences, and human-AI interaction. I am interested in
-            researching the next technological tools to excel human learning
-            and communication.
+            intersection of 3D scene understanding, on-device machine
+            learning, human-AI interaction, and the learning sciences. Right
+            now I work on language Gaussian splats that tell removed objects
+            from hidden ones, and on object recognition that runs in any
+            phone browser. I am interested in building the next
+            technological tools to help people learn and communicate.
           </p>
 
           <p class="lead">
@@ -259,6 +261,30 @@
       <hr class="rule" />
       <section class="section">
         <h2>Projects</h2>
+
+        <div class="pub-row">
+          <div class="pub pub-full">
+            <p class="title">X-Ray Words: Telling Removed from Hidden Objects in Language Gaussian Splats</p>
+            <p class="meta">PhD research, GMU · 2026 – present · paper in preparation for SIGGRAPH 2027</p>
+            <ul class="pub-bullets">
+              <li>Film a room before and after a change, then train 3D Gaussian splats with a 3D language field (COLMAP, LangSplat, PyTorch) on GMU's Hopper cluster (NVIDIA A100 GPUs)</li>
+              <li>Decide for each object whether it is present, hidden or removed, using transmittance through the after-change splat</li>
+              <li>Pre-registered evaluation with frozen parameters on SceneDiff before/after pairs; reports a negative result for an earlier claim about calibrated multi-view fusion</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="pub-row">
+          <div class="pub pub-full">
+            <p class="title">Any Room</p>
+            <p class="meta">Web app, research project · 2026</p>
+            <ul class="pub-bullets">
+              <li>Learn Russian words from the objects in your own room; opens from a link in any phone browser, with no app install, no server and no GPU needed</li>
+              <li>Runs object detection (D-FINE), segmentation (EdgeTAM) and MobileCLIP on the phone with Transformers.js and three.js</li>
+              <li>Merges detections from many camera views into a 3D map of the room and labels only the objects the map is sure of</li>
+            </ul>
+          </div>
+        </div>
 
         <div class="pub-row">
           <div class="pub pub-full">
